@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Information</title>
+</head>
+<style>
+  body {
+    background-color: rgb(108, 87, 191);
+  }
+</style>
+<body>
+
+<form action="/submit" method="post">
+   
+   <section>
+       <fieldset>
+        <label>First Name:</label>
+        
+    <input type="text" id="firstName" name="firstName" 
+placeholder="enter your first name..." required>
+    <br>
+
+    <label>Last Name:</label>
+    <input type="text" id="lastName" name="lastName" placeholder="enter your last name..." required>
+
+    <br>
+
+    <label>Date of Birth:</label>
+    <input type="date" id="dob" name="dob" required>
+
+<br>
+
+<label >Gender:</label>
+  <input type="radio" name="gender" value="male">male
+  <input type="radio" name="gender" value="female">female
+  <br>
+  
+  password:<input type="password" name="password" maxlength="8">
+  </fieldset>
+  <br>
+  <fieldset>
+  contact:<input type="contact" name="contact" maxLength="13">
+  <br>
+  Email:<input type="email" name="email">
+  </fieldset>
+  <br>
+  <style>
+  fieldset {
+    background-color: rgb(101, 165, 67);
+    border: 2px cream;
+    border-radius: 5px;
+    padding: 10px;
+  }
+</style>
+  <fieldset>
+     <h1>COURSE REGISTRATION</h1>
+     <h4>Check box</h4>
+       courses:<input type="checkbox" name="BCS 212">BCS212
+ <input type="checkbox" name="BIT 220">BIT220
+ <input type="checkbox" name="ISK 347">ISK347
+ <br>
+ <h4>select value</h4>
+ <select name="Course" id="courses">
+    <option value="BCS 212">BCS 212</option>
+    <option value="BIT 204">BIT 204</option>
+    <option value="ISK 347">ISK 347</option>
+    <option value="BCS 202">BCS 202</option>
+ </select>
+ <br>
+  </fieldset>
+  </fieldset>
+  <br>
+  <section id="newsletter">
+      <fieldset>
+      <div class="container">
+        <h1>Subscribe To Our Newsletter</h1>
+        <form>
+          <input type="email" placeholder="Enter Email..." required>
+          <button type="submit" class="button_1">Subscribe</button>
+        </form>
+      </div>
+      </fieldset>
+    </section>
+  </section>
+</form>
+ </body>    
+ </html>
